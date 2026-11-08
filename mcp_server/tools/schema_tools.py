@@ -1,5 +1,5 @@
 import sqlite3
-from tkinter import ON
+
 from config.settings import get_settings
 
 
