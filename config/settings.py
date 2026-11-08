@@ -11,6 +11,7 @@ class Settings(BaseSettings):
     llm_type: str
 
     DB_PATH: str
+    REDIS_URL: str
 
     class Config:
         env_file = ".env"
