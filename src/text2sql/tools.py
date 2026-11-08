@@ -1,6 +1,4 @@
 import sqlite3
-from tkinter import ON
-from tkinter import ON
 from langchain.tools import tool
 from text2sql.llm_factory import LLMFactory
 from config.settings import get_settings
